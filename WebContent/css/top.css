@@ -1,0 +1,222 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	background-color: rgb(247, 247, 247);
+}
+/* 头部导航条 */
+.top {
+	width: 1902px;
+	height: 50px;
+	background-color: rgb(255, 255, 255);
+	position: relative;
+	box-shadow: 0 0 0 1px #fff, 0 0 0 2px #ddd;
+	margin-bottom: 4px;
+}
+.icon{
+	width: 150px;
+	height: 100%;
+	position: absolute;
+	left: 330px;
+}
+.icon>a>img {
+	width: 50px;
+	height: 100%;
+}
+
+.icon>a>span {
+	font-size: 20px;
+	color: rgb(18, 150, 219);
+	position: absolute;
+	height: 100%;
+	line-height: 50px;
+	padding-left: 10px;
+}
+
+.nav {
+	position: absolute;
+	right: 600px;
+}
+
+.nav>ul>a>li {
+	width: 150px;
+	height: 50px;
+	list-style: none;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+	color: gray;
+	font-size: 18px;
+}
+
+.myhead {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	/* background: url(../img/sansheng.jpg) no-repeat; */
+	background-size: 100% 100%;
+	margin-top: 5px;
+	cursor: pointer;
+	position: absolute;
+	right: 300px;
+	transition: all 0.5s;
+}
+
+.myheadHover {
+	margin-top: 30px;
+	transform: scale(2, 2);
+	z-index: 998;
+}
+
+.myinfo {
+	width: 200px;
+	height: 250px;
+	background-color: rgb(255, 255, 255);
+	position: absolute;
+	right: 220px;
+	top: 54px;
+	z-index: 997;
+	box-shadow: 0 0 0 1px #fff, 0 0 0 2px #ddd;
+	display: none;
+}
+
+.name {
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	top: 40px;
+	text-align: center;
+	line-height: 30px;
+
+}
+
+.info {
+	position: absolute;
+	top: 70px;
+	width: 100%;
+	margin-left: 2px;
+	border-bottom: 1px solid #ddd;
+}
+
+.info>ul>li {
+	float: left;
+	list-style: none;
+	width: 65px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 1px;
+	color: rgb(68, 97, 124);
+	font-size: 20px;
+}
+
+.info2 {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	bottom: 18px;
+}
+
+.info2>ul>li {
+	width: 98px;
+	height: 20px;
+	float: left;
+	list-style: none;
+	margin-top: 20px;
+	padding-left: 15px;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	margin-left: 2px;
+}
+
+.info2>ul>li:hover a {
+	color: blue;
+}
+
+.info3 {
+	width: 100%;
+	height: 18px;
+	position: absolute;
+	bottom: 0px;
+	background-color: rgb(244, 245, 247);
+}
+
+.info3>a>span {
+	position: absolute;
+	right: 10px;
+	font-size: 12px;
+	top: 2px;
+}
+
+.info3>a>span:hover {
+	color: blue;
+}
+
+
+.search{
+	width: 200px;
+	height: 34px;
+	position: absolute;
+	right: 380px;
+	top: 10px;
+	border: 1px solid gray;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+.search-ipt{
+	width: 150px;
+	height: 17px;
+	font-size: 14px;
+	outline: none;
+	border: none;
+	margin-top: 7px;
+	margin-left: 15px;
+}
+.search-pic{
+	position: relative;
+    top: 3px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+.edit{
+	position: relative;
+	top: 3px;
+	cursor: pointer;
+}
+.unlogin{
+	float: right;
+	margin-top: 8px;
+    margin-right: 245px;
+	cursor: pointer;
+	display : none;
+}
+
+.news-tip{
+	width: 108px;
+    height: 25px;
+    position: absolute;
+    right: 177px;
+    top: 15px;
+    cursor: pointer;
+	color: #333;
+    line-height: 30px;
+	font-size: 14px;
+	line-height: 25px;
+}
+.news-tip>img{
+	width: 20px;
+	height: 20px;
+}
+.message-tips{
+	position: relative;
+	top: -4px;
+	left: -4px;
+}

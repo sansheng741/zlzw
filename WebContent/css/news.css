@@ -1,0 +1,257 @@
+@CHARSET "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper{
+	width: 1200px;
+    height: auto;
+    position: relative;
+    left: 340px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.controlPanel{
+	border: 1px solid #eee;
+	border-bottom: none;
+	width: 265px;
+	float: left;
+}
+.mainPanel{
+	width: 891px;
+	height: auto;
+	float: left;
+	margin-left: 40px;
+}
+.controlPanel>ul>li{
+	height: 50px;
+	list-style: none;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom: 1px solid #dddddd !important;
+    border-top: none !important;
+    font-size: 14px;
+    color: #333;
+	cursor: pointer;
+}
+
+.comment{
+	width: 100%;
+	height: auto;
+	border: 1px solid #eee;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.comment-person-info{
+	width: 100%;
+	height: 80px;
+	box-sizing: border-box;
+	position: relative;
+}
+.comment-person-head{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	cursor: pointer;
+}
+.comment-person-head>img{
+	width: 100%;
+	height: 100%;
+}
+
+.comment-name{
+	position: absolute;
+	top: 2px;
+    left: 62px;
+}
+
+.comment-time{
+	position: absolute;
+	top: 26px;
+    left: 62px;
+	font-size: 14px;
+}
+
+.comment-goods{
+	border: 1px solid rgba(0,0,0,0.3);
+}
+
+.goods-pic{
+	width: 100px;
+	height: 100px;
+	vertical-align: top;
+}
+
+.goods-info{
+	display: inline-block;
+	line-height: 100px;
+	margin-left: 20px;
+}
+.goods-info>a{
+	text-decoration: none;
+}
+.comment-goods:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+.comment-context{
+	margin-top: 10px;
+	position: relative;
+	padding-left: 7px;
+	border-bottom: 1px dashed #e0e0e0;
+}
+.comment-context>img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+}
+.user-name{
+	position: absolute;
+	top: 4px;
+    left: 43px;
+	font-size: 14px;
+}
+.context{
+	box-sizing: border-box;
+	padding: 5px;
+	margin-left: 5px;
+}
+.comment-frame{
+	position: relative;
+}
+.comment-textarea{
+	width: 98%;
+	height: 15px;
+	resize: none;
+	display: block;
+	padding: 7px 8px;
+	background: #fff;
+	border: 1px solid #c1c1c1;
+	border-radius: 4px;
+	margin-top: 10px;
+	outline: none;
+}
+
+.reply-send{
+    margin-left: 16px;
+    height: 30px;
+    line-height: 28px;
+    min-width: 72px;
+    cursor: pointer;
+    color: #fff !important;
+    border: 1px solid #ca0c16 !important;
+    background-color: #ca0c16 !important;
+    padding: 0 8px;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    text-align: center;
+    outline: none;
+	position: relative;
+	left: 756px;
+    top: 9px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+.user-name>span {
+    color: #999;
+    vertical-align: super;
+    display: inline-block;
+    margin: 0 2px;
+}
+.commentList{
+	display: block;
+}
+.private-letter{
+	display: none;
+	width: 920px;
+	height: 522px;
+	background-color: #fff;
+	border: 1px solid #eee;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.chatPanel{
+	width: 710px;
+	height: 500px;
+	border: 1px solid #eee;
+	border-right: none;
+}
+
+.chatPanel-left{
+	width: 140px;
+	height: 100%;
+	background-color: rgb(244,244,244);
+	float: left;
+}
+.search-friend{
+	position: relative;
+	width: 100%;
+	height: 59px;
+	background-color: #F4F4F4;
+    border-bottom: 1px solid #e1d7d7;
+    padding: 16px 12px;
+	box-sizing: border-box;
+}
+.f-pr{
+	width: 100%;
+    box-sizing: border-box;
+    padding-left: 7px;
+    height: 26px;
+    line-height: 26px;
+	outline: none;
+	color: #999;
+    font-size: 12px;
+    line-height: 20px;
+}
+.sessionwrap{
+	width: 100%;
+	height: 441px;
+}
+.sessionwrap>ul>li{
+	list-style: none;
+	padding: 10px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #eee;
+	cursor: pointer;
+	position: relative;
+}
+.sessionwrap>ul>li>img{
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
+}
+.sessionwrap>ul>li>span{
+	display: inline-block;
+	width: 65px;
+	line-height: 30px;
+    font-size: 12px;
+    color: #333;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.chatPanel-right{
+	background-color: red;
+	width: 570px;
+	height: 100%;
+	float: left;
+}
+.search_pic{
+	position: absolute;
+	right: 16px;
+    top: 21px;
+	cursor: pointer;
+	display: none;
+	width: 16px;
+    height: 16px;
+}
+
+

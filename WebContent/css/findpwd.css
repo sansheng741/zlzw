@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+html header{
+	height:30px;
+}
+html body{
+	background-color: #f8f8f8;
+	background-origin: padding-box;
+}
+
+input{
+	border:none;
+}
+article{
+	width:100%;
+	color:#666;
+}
+article h1{
+	width:600px;
+	float:left;
+	padding-left:70px;
+	font-size:28px;
+	color:black;
+	margin:100px 0 40px  350px;
+
+}
+
+.cell{
+	padding-left: 400px;
+}
+
+.cell input{
+	border:1px solid #808080;
+	width:300px;
+	height:40px;
+	margin-top: 50px;
+	border-radius:2px;
+}
+.cell #code{
+	width:160px;
+}
+.cell #b{
+	width:135px;
+	height:40px;
+	border-radius:2px;
+	background-color: #0080ff;
+	font-size: 17px;
+	border:1px solid #f8f8f8;
+	color:white;
+}
+.cell span{
+	font-size: 15px;
+}
+.cell img{
+	width:35px;
+	height:25px;
+	position:absolute;
+	margin: 15px;
+	margin-top: 60px;
+	margin-left: 250px;
+}
+.button input{
+	width:150px;
+	height:40px;
+	margin-left:550px;
+	margin-top: 50px;
+	background-color: #0080ff;
+	font-size: 17px;
+	border-radius:5px;
+	color:white;
+}
+
+
+.shenming{
+    text-align: center;
+	margin-left: 360px;
+}
+    
+.foot a{
+    font-size: 14px;
+    margin: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+}

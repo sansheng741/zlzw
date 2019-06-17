@@ -1,0 +1,272 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+/* 中间内容区域 */
+.wrapper {
+	width: 1200px;
+	height: auto;
+	position: relative;
+	left: 340px;
+	margin-top: 20px;
+}
+
+.user-card{
+	width: 100%;
+	height: 229px;
+	background-color: white;
+	border: 1px solid #eee;
+	padding-top: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.card-left{
+	position: relative;
+	display: inline-block;
+	width: 733px;
+	height: 207px;
+}
+.user-head{
+	display: inline-block;
+	width: 98px;
+	height: 98px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.user-head>img{
+	width: 100%;
+	height: 100%;
+}
+.user-name{
+	display: inline-block;
+	width: auto;
+	position: absolute;
+	top: 13px;
+    left: 121px;
+}
+.upload-size{
+	display: inline-block;
+	width: auto;
+	position: absolute;
+	top: 48px;
+    left: 121px;
+}
+.data-count{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	margin-top: 25px;
+	margin-left: -15px;
+}
+
+.data-count>ul>li{
+	list-style: none;
+	float: left;
+	width: 15%;
+	text-align: center;
+}
+.data-count>ul>li label{
+	font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+	display: block;
+    line-height: 1;
+	font-weight: 400
+}
+.data-count>ul>li span{
+	font-family: Arial;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ff9358;
+	display: block;
+    line-height: 1;
+}
+
+.card-right{
+	display: inline-block;
+	width: 395px;
+	height: 176px;
+	position: absolute;
+	top: 20px;
+    right: 30px;
+}
+.btn_vipsign{
+	display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 36px;
+    height: 36px;
+	width: 53%;
+    background: #e33f3f;
+    color: #fff;
+    border-radius: 25px;
+	text-decoration: none;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 67px auto;
+}
+.main{
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+}
+.pull-left{
+	display: inline-block;
+	width: 880px;
+	height: auto;
+	background-color: white;
+	border: 1px solid #eee;
+	margin-top: 22px;
+	
+}
+
+.user-nav{
+	background: rgb(238,241,243);
+	width: 100%;
+	height: 42px;
+}
+.user-nav>ul>li{
+	float: left;
+	width: 120px;
+}
+.user-nav>ul>li>a{
+	display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #666;
+	line-height: 42px;
+    text-align: center;
+}
+
+.item-scurce>ul>li {
+    padding-top: 30px;
+    background: #fff;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+	border-bottom: 1px dashed #e0e0e0;
+}
+.src-content{
+    width: 766px;
+    padding-left: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.src-content>h3{
+	font-size: 16px;
+}
+.src-content>h3:hover a{
+	color: red;
+}
+.src-content>h3>a{
+	display: block;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333;
+    font-weight: 700;
+    margin-top: -9px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.src-pic{
+	float: left;
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	margin-left: 20px;
+}
+.src-pic>img{
+	width: 100%;
+	height: 100%;
+}
+.src-desc{
+	font-size: 12px;
+    line-height: 20px;
+    color: #666;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.date{
+	float: left;
+	margin-left: 0;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	color: #333;
+	font-size: 12px;
+}
+.score{
+	float: left;
+	margin-left: 38px;
+    margin-top: 14px;
+	color: #333;
+	font-size: 12px;
+}
+.score>span{
+    font-size: 18px;
+    color: #facc16;
+}
+.cancel-fav{
+	float: right;
+	margin-right: -20px;
+    margin-top: 14px;
+	color: #333;
+	font-size: 12px;
+}
+.cancel-fav>a{
+	color: #546a7e;
+}
+.pull-right{
+	position: absolute;
+	display: inline-block;
+	width: 300px;
+	height: 44px;
+	background-color: red;
+	border: 1px solid #eee;
+	top: 22px;
+	right: 0;
+}
+
+
+.upload{
+	float: left;
+    display: block;
+    width: 100%;
+    height: 44px;
+    background: #e33f3f;
+    font-size: 16px;
+    line-height: 44px;
+    color: #fff;
+    text-align: center;
+}
+.upload:before{
+	content: url(../img/upload.png);
+	position: relative;
+	top: 2px;
+    right: 5px;
+}
+
+/* vip */
+.vip-empty{
+	position: relative;
+	width: 100%;
+	height: 206px;
+	padding-top: 100px;
+}
+.vip-empty>img{
+	position: relative;
+	margin-left: 50%;
+	left: -37px;
+	margin-bottom: 5px;
+}
+.vip-empty>p{
+	text-align: center;
+}
+.vip-empty>p>a{
+	color: red;
+}

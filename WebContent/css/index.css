@@ -1,0 +1,346 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	background-color: rgb(247, 247, 247);
+}
+
+/* 中间内容区域 */
+.wrapper {
+	width: 1200px;
+	height: auto;
+	position: relative;
+	left: 340px;
+}
+/* 轮播图 */
+.Sowing-map {
+	width: 100%;
+	height: 400px;
+	background-color: #DDDDDD;
+	position: relative;
+	top: 2px;
+	background: url(../img/map1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.point {
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	margin-left: -75px;
+	bottom: 10px;
+}
+
+.point>li {
+	list-style-type: none;
+	float: left;
+	width: 8px;
+	height: 8px;
+	background-color: #ccc;
+	margin-left: 15px;
+	border-radius: 50%;
+	border: 2px solid transparent;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+/* 教学视频 */
+.videos {
+	width: 100%;
+	height: 620px;
+	margin-top: 20px;
+}
+
+.videosPic>li {
+	list-style: none;
+	float: left;
+	background-color: #0000FF;
+	width: 263px;
+	height: 253px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	box-shadow: 0 2px 2px 0 #eee;
+}
+
+.videosPic>li:nth-child(1){
+	width: 557px;
+	height: 253px;
+}
+
+.videosPic>li:hover {
+	box-shadow: 2px 2px 10px gray;
+}
+
+/* 书籍 */
+.g2 {
+	width: 100%;
+	height: 350px;
+	margin-top: 20px;
+}
+
+.booksPic {
+	width: 6000px;
+	height: 253px;
+	position: relative;
+}
+.movePic_books{
+	width: 1200px;
+	overflow: hidden;
+	height: 253px;
+	position: relative;
+}
+
+
+.movePic_books>a {
+	display: none;
+}
+
+.movePic_books:hover a {
+	display: block;
+}
+
+.booksPic>li {
+	list-style: none;
+	float: left;
+	background-color: #0000FF;
+	width: 263px;
+	height: 253px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 2px 0 #eee;
+}
+
+.booksPic>li:hover {
+	box-shadow: 2px 2px 10px gray;
+}
+
+
+/* 工具 */
+
+.g3 {
+	width: 100%;
+	height: 350px;
+	margin-top: 20px;
+}
+
+.toolsPic {
+	width: 6000px;
+	height: 253px;
+	position: relative;
+}
+
+.movePic_tools{
+	width: 1200px;
+	overflow: hidden;
+	height: 253px;
+	position: relative;
+}
+
+.movePic_tools>a {
+	display: none;
+}
+
+.movePic_tools:hover a {
+	display: block;
+}
+
+.toolsPic>li {
+	list-style: none;
+	float: left;
+	background-color: #0000FF;
+	width: 263px;
+	height: 253px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 2px 0 #eee;
+}
+
+.toolsPic>li:hover {
+	box-shadow: 2px 2px 10px gray;
+}
+
+
+
+/* jar包 */
+.g4 {
+	width: 100%;
+	height: 350px;
+	margin-top: 20px;
+}
+
+.jarsPic {
+	width: 6000px;
+	height: 253px;
+	position: relative;
+}
+
+
+.movePic_jars{
+	width: 1200px;
+	overflow: hidden;
+	height: 253px;
+	position: relative;
+}
+
+.movePic_jars>a {
+	display: none;
+}
+
+.movePic_jars:hover a {
+	display: block;
+}
+
+.jarsPic>li {
+	list-style: none;
+	float: left;
+	background-color: #0000FF;
+	width: 263px;
+	height: 253px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 2px 0 #eee;
+}
+
+.jarsPic>li:hover {
+	box-shadow: 2px 2px 10px gray;
+}
+
+.jarsPic>li {
+	list-style: none;
+	float: left;
+	background-color: #0000FF;
+	width: 263px;
+	height: 253px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+/* 公共 */
+.course-pic {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 0;
+	vertical-align:top;
+}
+
+
+.course-name {
+	width: 100%;
+    height: 44px;
+    display: block;
+    color: #666;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    transition: all 0.5s;
+    background-color: white;
+    padding: 20px 0 0;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+ .course-desc {
+	width: 100%;
+	height: 0;
+	transition: all 0.5s;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	background-color: white;
+	color: #666;
+	font-size: 15px;
+}
+
+
+.course-footer {
+	position: relative;
+	width: 100%;
+	height: 40px;
+	background-color: white;
+}
+
+.course-footer>ul>li {
+	list-style: none;
+	float: right;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 10px;
+} 
+.course-body:hover .course-desc {
+	height: 63px;
+}
+
+.course-body:hover .course-name {
+	margin-top: -63px;
+}
+
+
+
+
+
+.home-section-header {
+	width: 100%;
+	height: 34px;
+	margin-bottom: 30px;
+}
+
+.see-more {
+	float: right;
+	margin-right: 10px;
+	color: #666;
+}
+
+.home-section-title {
+	color: #565656;
+	font-size: 24px;
+}
+
+.home-section-desc {
+	color: #666;
+	font-size: 14px;
+	vertical-align: 2px;
+}
+
+.spans{
+	display: block;
+	width: 60px;
+	font-size: 25px;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 50%;
+}
+.leftArrow {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -30px;
+	z-index: 9;
+}
+
+.rightArrow {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -30px;
+	z-index: 9;
+}
+.leftArrow:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.rightArrow:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+}
